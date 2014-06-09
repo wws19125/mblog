@@ -1,0 +1,49 @@
+.nav_out
+{
+    position:fixed;
+    top:0;
+    height:48px;
+    width:100%;
+    padding:0;
+    background:red;
+}
+.nav
+{
+    background:black;
+    height:40px;
+    width:100%;
+}
+.nav ul
+{
+    list-style-type:none;
+    padding-top:10px;
+}
+.nav_logo
+{
+    padding-left:5px;
+    padding-right:60px;
+}
+.nav_logo img
+{
+    -moz-box-shadow:0 0 10px 5px #aaaaaa;
+    -webkit-box-shadow:0 0 10px 5px #aaaaaa;
+    box-shadow:0 0 10px 10px #aaaaaa;
+}
+.nav *
+{
+    color:white;
+}
+.nav li
+{
+    cursor:pointer;
+    font-size:14pt;
+    font-weight:bold;
+    float:left;
+    padding-left:20px;
+}
+.nav li:hover
+{
+    color:#cccccc;
+    font-size:15pt;
+    padding:0px 60px 0px 20px; 
+}

@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/stylesheets/article.css"/>
+<div class="acl">
+  <div class="acl_dt">
+    <div class="dt" id="dt">
+      2010
+    </div>
+  </div>
+  <div class="acl_body">
+    <div>
+      <h2>这里是标题</h2>
+    </div>
+    <div>
+      <div>
+	放置图片
+      </div>
+      <div>
+	这里是内容，可以容纳300
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var dt = new Date();
+  document.getElementById("dt").innerHTML=dt.getFullYear()+"年"+dt.getMonth()+"月"+dt.getDay()+"日<br/>"+dt.toLocaleTimeString();
+</script>

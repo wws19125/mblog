@@ -1,0 +1,23 @@
+.acl div
+{
+    float:left;
+}
+.dt
+{
+    background:black;
+    font-size:14pt;
+    padding:2px 10px 2px 10px;
+    margin-top:40px;
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+}
+.acl_body
+{
+    margin-left:-45px;
+}
+.acl_body div
+{
+    background:red;
+    clear:both;
+}
